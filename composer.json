@@ -1,0 +1,21 @@
+{
+  "name": "liugehao/yii2-qcloud-sms",
+  "description": "qcloud-sms for yii2",
+  "type": "library",
+  "require": {
+    "yiisoft/yii2": "2.0.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "liugehao",
+      "email": "root@workgroup.cn"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Qcloud\\Sms\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
