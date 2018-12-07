@@ -10,7 +10,7 @@ namespace Qcloud\Sms;
 
 use Yii;
 
-class Base extends \yii\base\Object
+class Base extends \yii\base\BaseObject
 {
     public $url;
     public $appid;
